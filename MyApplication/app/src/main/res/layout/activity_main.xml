@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#686060"
+    android:backgroundTint="#D3B8D8"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="490dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Grade calculator:"
+        android:textColor="#0B0909"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="120dp"
+        android:background="#B173AF"
+        android:ems="10"
+        android:hint="            Quizes %15"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="200dp"
+        android:background="#B173AF"
+        android:ems="10"
+        android:hint="           homework %25"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="270dp"
+        android:background="#B173AF"
+        android:ems="10"
+        android:hint="            mid term %30"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="340dp"
+        android:background="#B173AF"
+        android:ems="10"
+        android:hint="               Final %30"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="420dp"
+        android:background="#3D4575"
+        android:fontFamily="sans-serif-black"
+        android:text="calculate" />
+
+</RelativeLayout>
